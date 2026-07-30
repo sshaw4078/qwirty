@@ -1,0 +1,92 @@
+.topbar {
+    display: Flex;
+    Background-color: rgb(143, 194, 228);
+    color: White;
+    justify-content: space-between;
+    align-items: center;
+    Padding: 1rem 2rem;
+    font-size: 1rem;
+    text-decoration: none;
+}
+.topbar a{
+    text-decoration: none;
+    color: white;
+}
+
+.header {
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+    padding: 1rem 2rem;
+}
+
+.brand {
+    font-size: 2rem;
+    color: rgb(143, 194, 228);
+    font-weight: bold;
+}
+
+.search-bar {
+    flex: 1;
+    display: flex;
+}
+
+.financing {
+    font-size: 1rem;
+    background-color: red;
+    color: white;
+    font-weight: bold;
+    text-align: center;
+    Padding: 1rem 1rem;
+    white-space: nowrap;
+    flex-shrink: 0;
+}
+
+.card {
+    width:100%;
+    margin-bottom:20px;
+    border-radius:12px;
+    margin: .5;
+  padding: 20px;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.08);
+  border: 2px solid rgba(0, 0, 0, 0.06);
+  transition: box-shadow 0.2s ease, transform 0.2s ease;
+  background-color: rgb(143, 194, 228);
+  font-weight: bold;
+  font-family: "Times New Roman", Serif;
+  font-size: 14px;
+  color: white;
+  text-transform: uppercase;
+
+}
+.products {
+    display: grid;
+    grid-template-columns: repeat(4, minmax(0, 1fr));
+}
+.product-card {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.product-card img{
+    width: 50%;
+    height: auto;
+    max-width:50%
+}
+
+body {
+    background-color: rgb(218, 214, 214);
+}
+
+.main { 
+display: grid;
+grid-template-columns: 200px 1fr;
+gap: 1rem;
+}
+
+.footer {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+}
